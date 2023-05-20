@@ -6,7 +6,6 @@
   <br/>
 
   <h3><b>Genius Academy</b></h3>
-  <h3><b>Genius Academy</b></h3>
 
 </div>
 
