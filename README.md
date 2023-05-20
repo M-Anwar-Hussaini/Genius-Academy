@@ -129,6 +129,12 @@ npx hint .
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
+- ✔ ESLint
+
+```sh
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+
 ### Setup
 
 - Clone this [repository](https://github.com/M-Anwar-Hussaini/Genius-Academy.git) to your desired folder:
@@ -136,8 +142,6 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 - Example commands:
 
 ```sh
-  cd [YOUR FOLDER]
-  git clone https://github.com/M-Anwar-Hussaini/Genius-Academy.git
   cd [YOUR FOLDER]
   git clone https://github.com/M-Anwar-Hussaini/Genius-Academy.git
 ```
@@ -236,4 +240,3 @@ I would like to thank [Microverse](https://www.microverse.org/?grsf=mohammad-a-n
 This project is [MIT](MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-```
