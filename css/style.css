@@ -72,9 +72,17 @@ html {
   overflow-x: hidden;
 }
 
+:root {
+  /* Colors */
+  --primary-color: #272a32;
+  --gray-color: #d3d3d3;
+  --accent-color: #ec5242;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1;
   overflow-x: hidden;
   font-weight: 400;
+  color: var(--primary-color);
 }
