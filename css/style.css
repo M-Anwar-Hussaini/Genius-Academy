@@ -177,7 +177,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 1.6rem;
 }
 
 .panelist-img-box:hover:hover .panelist-social {
@@ -187,6 +187,8 @@
 .panelist-icon {
   color: var(--gray-color);
   transition: all 0.2s;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .panelist-icon:hover {
