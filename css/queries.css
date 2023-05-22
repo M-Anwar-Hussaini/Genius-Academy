@@ -7,6 +7,10 @@
   .section {
     padding: 9.6rem 5.2rem;
   }
+
+  .program {
+    grid-template-columns: 1fr 3fr 6fr;
+  }
 }
 
 /* HIGER THAN (768px) */
