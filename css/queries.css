@@ -27,6 +27,10 @@
     padding: 9.6rem 6.4rem;
   }
 
+  .section-panelists {
+    padding: 9.6rem 2.4rem;
+  }
+
   .hero-description {
     width: 80%;
   }
@@ -43,10 +47,9 @@
     align-items: center;
   }
 
-  .container-panelist {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4.8rem;
+  .panelist-icon {
+    width: 4.8rem;
+    height: 4.8rem;
   }
 }
 
@@ -64,11 +67,27 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
   }
+
+  .container-panelist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8rem;
+  }
+
+  .panelist-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
 }
 
 /* HIGER THAN (1200px) */
 @media (min-width: 75em) {
   html {
     font-size: 62.5%;
+  }
+
+  .panelist-icon {
+    width: 4.8rem;
+    height: 4.8rem;
   }
 }
