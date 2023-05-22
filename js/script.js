@@ -49,9 +49,10 @@ const panelistInfo = [
     description:
       '<strong>Esmat</strong> an IT officer and full-stack web developer, combining technical expertise with problem-solving skills to create innovative web solutions and optimize IT operations',
     socialAccounts: {
-      github: 'https://github.com/najibullahjafari',
-      linkedIn: 'https://www.linkedin.com/in/najibulla-jafari-609852263/',
-      twitter: 'https://twitter.com/Najib_Jafari_',
+      github: 'https://github.com/EsmatSolimany',
+      linkedIn: 'https://www.linkedin.com/in/esmat-solimany-8281a0254',
+      twitter:
+        'https://twitter.com/Esmatsolimany',
     },
   },
 
