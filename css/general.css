@@ -102,17 +102,21 @@ body {
 
 .heading {
   font-weight: 900;
+  line-height: var(--line-height-sm);
 }
 
 .heading--primary {
   font-size: 4rem;
   color: var(--accent-color);
-  line-height: 1.1;
   text-transform: uppercase;
 }
 
 .heading--secondary {
   font-size: 3.6rem;
+}
+
+.heading--tertiary {
+  font-size: 2.4rem;
 }
 
 .underline::after {
@@ -124,7 +128,17 @@ body {
   margin: 2rem auto 0;
 }
 
+.text-centered {
+  text-align: center;
+}
+
 strong {
   font-weight: 700;
   color: var(--accent-color);
+}
+
+.icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  font-weight: 900;
 }
