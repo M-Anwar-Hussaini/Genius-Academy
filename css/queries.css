@@ -1,0 +1,64 @@
+/* HIGER THAN (576px) */
+@media (min-width: 36em) {
+  html {
+    font-size: 53%;
+  }
+
+  .section {
+    padding: 9.6rem 5.2rem;
+  }
+}
+
+/* HIGER THAN (768px) */
+@media (min-width: 48em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading--primary {
+    font-size: 4.4rem;
+  }
+
+  .section {
+    padding: 9.6rem 6.4rem;
+  }
+
+  .hero-description {
+    width: 80%;
+  }
+
+  .programs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* HIGER THAN (992px) */
+@media (min-width: 62em) {
+  html {
+    font-size: 60%;
+  }
+
+  .heading--primary {
+    font-size: 5.2rem;
+  }
+
+  .programs {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+/* HIGER THAN (1200px) */
+@media (min-width: 75em) {
+  html {
+    font-size: 62.5%;
+  }
+}

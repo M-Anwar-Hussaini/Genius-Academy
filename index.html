@@ -9,14 +9,105 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- LOCAL CSS FILES -->
+    <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
   </head>
   <body>
-    <h1>This is the Genuis Academy Project</h1>
+    <header class="main-header">
+      <div class="container">
+        <button class="btn-menu">
+          <ion-icon name="menu-outline" class="icon-menu"></ion-icon>
+          <ion-icon name="close-outline" class="icon-menu"></ion-icon>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section section-hero">
+        <div class="container container-hero">
+          <div>
+            <p class="hero-welcom">"Hello! Sharing world"</p>
+            <h1 class="heading heading--primary">
+              Genius Academy For Genius People 2023
+            </h1>
+          </div>
+          <p class="hero-description">
+            Students of Computer Science faculty from Kabul University has arranged a weekly panel under the name of <strong>Genius Academy For Genius People</strong> to assess the latest changes, developments and challenges on the field of Software Engineering.
+          </p>
+          <p class="hero-time">2023 May 25th (Thu) - 8:00 AM ~ 1:00 pm (UTC+4:30).</p>
+          <p class="hero-address">@ Public Editorium of Kabul University</p>
+        </div>
+      </section>
+
+      <!----------------------->
+      <!-- SECTTION PROGRAMS -->
+      <!----------------------->
+      <section class="section section--programs">
+        <div class="container container-programs">
+          <h2 class="heading heading--secondary underline">Panel Main Program</h2>
+          <div class="programs">
+            <!-- Program 1 -->
+            <div class="program">
+              <ion-icon name="book-outline" class="program-icon"></ion-icon>
+              <h3 class="program-title">Opening</h3>
+              <p class="program-description">
+                The panel starts with some opening talks Which include  main topics and objectives of panel by  moderator.
+              </p>
+            </div>
+
+            <!-- Program 2 -->
+            <div class="program">
+              <ion-icon name="mic-outline" class="program-icon"></ion-icon>
+              <h3 class="program-title">Lecture</h3>
+              <p class="program-description">
+                Every panel member is appointed to talk and share their valueable thought for some 10 to 15 minutes.
+              </p>
+            </div>
+            <!-- Program 3 -->
+            <div class="program">
+              <ion-icon class="program-icon" name="film-outline"></ion-icon>
+              <h3 class="program-title">Presentation</h3>
+              <p class="program-description">
+                While a panelist is talking, the moderator presents his presentation to illustrate panelist's view with details.
+              </p>
+            </div>
+            <!-- Program 4 -->
+            <div class="program">
+              <ion-icon
+                class="program-icon"
+                name="chatbubbles-outline"
+              ></ion-icon>
+              <h3 class="program-title">Q & A</h3>
+              <p class="program-description">
+                When panelists finish the lecture, participants can to their questions whether verbally or in a written manner.
+              </p>
+            </div>
+            <!-- Program 5 -->
+            <div class="program">
+              <ion-icon class="program-icon" name="restaurant-outline"></ion-icon>
+              <h3 class="program-title">Lunch</h3>
+              <p class="program-description">
+                At the end of the program, organizers of panel arrange to deliver lunch for the participants of the panel.
+              </p>
+            </div>
+          </div>
+          <button class="program-see-all">See The Whole program</button>
+        </div>
+      </section>
+    </main>
     <!-- ------------------------- -->
     <!-- EXTERNAL JAVASCRIPT FILES -->
     <!-- ------------------------- -->
@@ -30,7 +121,7 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    
+
     <!-- LOCAL JS FILES -->
     <script src="js/script.js"></script>
   </body>
