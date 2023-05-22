@@ -89,7 +89,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> It will be added later
+- ✅ You can see the live demo of this webpage by clicking [here](https://m-anwar-hussaini.github.io/Genius-Academy/);
 
 <!-- - [Live Demo Link](https://google.com) -->
 
