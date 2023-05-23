@@ -71,7 +71,6 @@ Medium: 11px
 
 html {
   font-size: 50%;
-  overflow-x: hidden;
 }
 
 :root {
@@ -87,9 +86,9 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1;
-  overflow-x: hidden;
   font-weight: 400;
   color: var(--primary-color);
+  transition: all 0.3s ease;
 }
 
 .section {
@@ -141,4 +140,12 @@ strong {
   height: 3.2rem;
   width: 3.2rem;
   font-weight: 900;
+}
+
+.hidden {
+  display: none;
+}
+
+.hide-scroll {
+  overflow: hidden;
 }

@@ -1,3 +1,39 @@
+/* ********************** **
+ *  MOBILE HUMBURGER MENU **
+ * ********************** */
+
+// Varibales
+const body = document.querySelector('body');
+const navBar = document.querySelector('.main-nav');
+const humburgerBtn = document.querySelector('.icon-menu[name="menu-outline"]');
+const closeBtn = document.querySelector('.icon-menu[name="close-outline"]');
+
+function openMenu() {
+  navBar.classList.add('active');
+  humburgerBtn.classList.add('hidden');
+  closeBtn.classList.remove('hidden');
+  closeBtn.style.setProperty('z-index', 10);
+  body.classList.add('hide-scroll');
+}
+
+function closeMenu() {
+  navBar.classList.remove('active');
+  humburgerBtn.classList.remove('hidden');
+  closeBtn.classList.add('hidden');
+  body.classList.remove('hide-scroll');
+}
+
+humburgerBtn.addEventListener('click', openMenu);
+closeBtn.addEventListener('click', closeMenu);
+
+const menuItems = document.querySelectorAll('.menu-item');
+menuItems.forEach((item) => {
+  item.addEventListener('click', closeMenu);
+});
+
+/* ***************** **
+ *  PANELIST SECTION **
+ * ***************** */
 const panelistInfo = [
   // Panelist #1: Ali Baba Hussaini
   {
@@ -51,8 +87,7 @@ const panelistInfo = [
     socialAccounts: {
       github: 'https://github.com/EsmatSolimany',
       linkedIn: 'https://www.linkedin.com/in/esmat-solimany-8281a0254',
-      twitter:
-        'https://twitter.com/Esmatsolimany',
+      twitter: 'https://twitter.com/Esmatsolimany',
     },
   },
 

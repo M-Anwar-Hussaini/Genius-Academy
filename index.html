@@ -28,15 +28,24 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container container-nav">
         <button class="btn-menu">
           <ion-icon name="menu-outline" class="icon-menu"></ion-icon>
-          <ion-icon name="close-outline" class="icon-menu"></ion-icon>
         </button>
+        <nav class="main-nav">
+          <div class="logo"><a href="index.html"><img class ="logo" src="./imgs/logo.png" alt="Genius Academy Logo"></a></div>
+          <ul class="menu-bar">
+            <ion-icon name="close-outline" class="icon-menu hidden"></ion-icon>
+            <li><a href="#about" class="menu-item menu-item--about">About</a></li>
+            <li><a href="#program" class="menu-item">Program</a></li>
+            <li><a href="#panel" class="menu-item">Panelists</a></li>
+            <li><a href="#" class="menu-item menu-item--campaign">Panel Campaign</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
-      <section class="section section-hero">
+      <section class="section section-hero" id="hero">
         <div class="container container-hero">
           <div>
             <p class="hero-welcom">"Hello! Sharing world"</p>
@@ -61,7 +70,7 @@
       <!----------------------->
       <!-- SECTTION PROGRAMS -->
       <!----------------------->
-      <section class="section section--programs">
+      <section class="section section--programs" id="program">
         <div class="container container-programs">
           <h2 class="heading heading--secondary underline">
             Panel Main Program
@@ -137,7 +146,7 @@
         The details of this section is loading by JavaScript. Here is just the skeleton.
        -->
 
-      <section class="section section-panelists">
+      <section class="section section-panelists" id="panel">
         <h2 class="heading heading--secondary underline text-centered">
           Featured Panelists
         </h2>

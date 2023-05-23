@@ -8,12 +8,83 @@
   --line-height-lg: 1.8;
 }
 
+.container-nav {
+  position: relative;
+}
+
+.icon-menu {
+  height: 4.8rem;
+  width: 4.8rem;
+  position: absolute;
+  top: 2.4rem;
+  left: 2.4rem;
+  cursor: pointer;
+}
+
+.logo {
+  height: 9rem;
+}
+
+.main-nav {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-color: var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.main-nav.active {
+  transform: translateX(0);
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item:link,
+.menu-item:visited {
+  display: inline-block;
+  font-size: 4.8rem;
+  line-height: var(--line-height-rg);
+  color: var(--primary-color);
+  font-weight: 700;
+  padding: 4px;
+}
+
+.menu-item:hover,
+.menu-item:active {
+  color: var(--accent-color);
+  transform: translateY(-0.5px) scale(1.04);
+}
+
+.menu-item--campaign:link,
+.menu-item--campaign:visited {
+  color: var(--accent-color);
+  border: 4px solid var(--accent-color);
+  margin-top: 1rem;
+}
+
+/* *********** *
+* SECTION HERO *
+* *********** */
 .section-hero {
   background-image:
     linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 1)
+      rgba(0, 0, 0, 0.2)
     ),
     url(./../imgs/hero-bg.png);
   background-position: center;
@@ -24,6 +95,8 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  max-width: 90rem;
+  margin: 0;
 }
 
 .hero-welcom {
