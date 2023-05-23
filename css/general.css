@@ -71,7 +71,6 @@ Medium: 11px
 
 html {
   font-size: 50%;
-  overflow-x: hidden;
 }
 
 :root {
@@ -87,7 +86,6 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1;
-  overflow-x: hidden;
   font-weight: 400;
   color: var(--primary-color);
   transition: all 0.3s ease;

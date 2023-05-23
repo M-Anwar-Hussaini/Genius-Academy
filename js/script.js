@@ -13,14 +13,14 @@ function openMenu() {
   humburgerBtn.classList.add('hidden');
   closeBtn.classList.remove('hidden');
   closeBtn.style.setProperty('z-index', 10);
-  body.classList.add('hide-scorll');
+  body.classList.add('hide-scroll');
 }
 
 function closeMenu() {
   navBar.classList.remove('active');
   humburgerBtn.classList.remove('hidden');
   closeBtn.classList.add('hidden');
-  body.classList.remove('hide-scorll');
+  body.classList.remove('hide-scroll');
 }
 
 humburgerBtn.addEventListener('click', openMenu);
