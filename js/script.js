@@ -121,7 +121,6 @@ const panelistInfo = [
 ];
 
 const panelists = document.querySelector('.container-panelist');
-panelists.innerHTML = '';
 function addPanelist(panelistInfo) {
   const panelist = document.createElement('figure');
   panelist.className = 'panelist';

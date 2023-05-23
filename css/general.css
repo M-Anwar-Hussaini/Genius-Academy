@@ -21,27 +21,6 @@ Large: 1.8
 -0.5px
 0.75px
 
---- 02 COLORS
-
-- Primary: #e67e22
-- Tints:
-#fdf2e9
-#fae5d3
-#eb984e
-
-- Shades:
-#cf711f
-#45260a
-
-- Accents:
-- Greys
-
-#888
-#767676 (lightest grey allowed on #fff)
-#6f6f6f (lightest grey allowed on #fdf2e9)
-#555
-#333
-
 --- 05 SHADOWS
 
 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -71,6 +50,8 @@ Medium: 11px
 
 html {
   font-size: 50%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
 }
 
 :root {
@@ -78,6 +59,7 @@ html {
   --primary-color: #272a32;
   --gray-color: #d3d3d3;
   --accent-color: #ec5242;
+  --bg-dark: #272a31;
   --line-height-sm: 1.2;
   --line-height-rg: 1.5;
   --line-height-lg: 1.8;

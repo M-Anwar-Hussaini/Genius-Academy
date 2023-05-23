@@ -8,6 +8,10 @@
   --line-height-lg: 1.8;
 }
 
+/* ************* *
+* HEADER SECTION *
+* ************* */
+
 .container-nav {
   position: relative;
 }
@@ -82,9 +86,9 @@
 .section-hero {
   background-image:
     linear-gradient(
-      to right bottom,
+      to bottom,
       rgba(255, 255, 255, 0.7),
-      rgba(0, 0, 0, 0.2)
+      rgba(255, 255, 255, 0.95)
     ),
     url(./../imgs/hero-bg.png);
   background-position: center;
@@ -128,7 +132,7 @@
 * SECTION PROGRAMS *
 * *************** */
 .section--programs {
-  background-color: rgba(39, 42, 49);
+  background-color: var(--bg-dark);
   color: #ddd;
   text-align: center;
 }
@@ -192,7 +196,7 @@
 }
 
 /* *************** *
-* SECTION Panelist *
+* SECTION PANELIST *
 * *************** */
 .container-panelist {
   padding: 4.8rem 0;
@@ -296,4 +300,28 @@
 .panelist-description {
   font-size: 1.8rem;
   line-height: var(--line-height-rg);
+}
+
+/* *************** *
+* SECTION sponsors *
+* *************** */
+.section--sponsors {
+  background-color: var(--bg-dark);
+  padding: 4.8rem 1rem;
+  color: var(--gray-color);
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.container-sponsors {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-logo {
+  height: 4.8rem;
 }
