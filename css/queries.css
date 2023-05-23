@@ -19,6 +19,41 @@
     font-size: 56.25%;
   }
 
+  body {
+    padding-top: 11rem;
+  }
+
+  .btn-menu {
+    display: none;
+  }
+
+  .main-nav {
+    transform: translateX(0);
+    flex-direction: row;
+    justify-content: space-between;
+    height: 11rem;
+    background-color: #fff;
+    box-shadow: 0 12px 9px 1px #aaa5;
+    z-index: 10;
+    padding: 0 5.2rem;
+  }
+
+  .menu-bar {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .menu-item:link,
+  .menu-item:visited {
+    font-size: 2rem;
+    font-weight: 700;
+    transition: all 0.2s;
+    display: inline-block;
+    padding: 0.8rem 1.2rem;
+  }
+
   .heading--primary {
     font-size: 4.4rem;
   }
