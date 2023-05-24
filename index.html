@@ -5,22 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Genius Academy</title>
-    <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
 
-    <!-- Font Awsome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <!-- LOCAL CSS FILES -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -33,6 +18,7 @@
           <ion-icon name="menu-outline" class="icon-menu"></ion-icon>
         </button>
         <nav class="main-nav">
+          <!-- LOGO -->
           <div class="logo">
             <a href="index.html"
               ><img
@@ -41,10 +27,12 @@
                 alt="Genius Academy Logo"
             /></a>
           </div>
+
+          <!-- Menu -->
           <ul class="menu-bar">
             <ion-icon name="close-outline" class="icon-menu hidden"></ion-icon>
             <li>
-              <a href="#about" class="menu-item menu-item--about">About</a>
+              <a href="about.html" class="menu-item menu-item--about">About</a>
             </li>
             <li><a href="#program" class="menu-item">Program</a></li>
             <li><a href="#panel" class="menu-item">Panelists</a></li>
@@ -152,15 +140,16 @@
               </p>
             </div>
           </div>
-          <button class="program-see-all">See The Whole program</button>
+          <button class="btn-join">Join Geneius Academy 2023</button>
+          <button class="program-see-all hidden">See The Whole program</button>
         </div>
       </section>
 
       <!------------------------>
-      <!-- SECTTION Panelists -->
+      <!-- SECTTION PANELISTS -->
       <!------------------------>
       <!-- 
-        The details of this section is loading by JavaScript. Here is just the skeleton.
+        The content of this section is loading by JavaScript(script.js). Here is just the skeleton.
        -->
 
       <section class="section section-panelists" id="panel">
@@ -171,7 +160,7 @@
       </section>
 
       <!------------------------>
-      <!-- SECTTION sponsors -->
+      <!-- SECTTION SPONSORS -->
       <!------------------------>
       <section class="section--sponsors" id="sponsors">
         <h2 class="heading heading--secondary underline text-centered">
@@ -206,6 +195,25 @@
         </div>
       </section>
     </main>
+
+    <!-------------------->
+    <!--    FOOTER      -->
+    <!-------------------->
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="logo-box">
+          <img
+            class="footer-logo"
+            src="./imgs/logo.png"
+            alt="Geneius Academy Logo"
+          />
+        </div>
+        <div class="footer-descriptions">
+          <p>2023 Geneius Academy Afghanistan</p>
+          <p>All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
 
     <!-- ------------------------- -->
     <!-- EXTERNAL JAVASCRIPT FILES -->

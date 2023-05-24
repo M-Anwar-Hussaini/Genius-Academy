@@ -1,0 +1,110 @@
+body {
+  text-align: center;
+  color: #555;
+}
+
+.container {
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.hero-description {
+  width: 100% !important;
+}
+
+.hero-contact-message {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+.hero-email:link,
+.hero-email:visited {
+  color: #555;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 4px;
+  border-bottom: 2px solid currentColor;
+  transition: all 0.3s ease;
+}
+
+.hero-email:hover,
+.hero-email:active {
+  border-bottom: 2px solid transparent;
+}
+
+.section-logo {
+  border-top: 3px solid #aaa3;
+  border-bottom: 3px solid #aaa3;
+}
+
+.section-event {
+  background-color: #eee;
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-description {
+  font-size: 2rem;
+  line-height: var(--line-height-rg);
+}
+
+.genius-logo {
+  max-width: 30rem;
+}
+
+.container-event {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.event-img-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.event-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.event-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ec524290;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3.6rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.event-item:hover .event-text {
+  transform: translateY(100%);
+}
+
+.event-text * {
+  z-index: 10;
+  color: #fff;
+}
+
+.event-description {
+  font-size: 2.4rem;
+  line-height: var(--line-height-rg);
+  text-shadow: 0 2px 4px black;
+}
+
+.event-photo {
+  width: 100%;
+}
