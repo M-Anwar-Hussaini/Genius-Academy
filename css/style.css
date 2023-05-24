@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 9rem;
+  height: 8rem;
 }
 
 .main-nav {
@@ -26,13 +26,15 @@
   left: 0;
   transform: translateX(-100%);
   background-color: var(--gray-color);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  z-index: 3;
+
+  /* Layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease;
-  overflow: hidden;
-  z-index: 3;
 }
 
 .main-nav.active {
@@ -60,6 +62,11 @@
 .menu-item:active {
   color: var(--accent-color);
   transform: translateY(-0.5px) scale(1.04);
+}
+
+.menu-item--key:link,
+.menu-item--key:visited {
+  color: var(--accent-color);
 }
 
 .menu-item--campaign:link,
@@ -143,7 +150,7 @@
   padding: 1.6rem;
   background-color: rgba(60, 63, 70);
   display: grid;
-  grid-template-columns: 1fr 3fr 4fr;
+  grid-template-columns: 1fr 3fr 5fr;
   gap: 0.4rem;
   align-items: center;
   text-align: left;
@@ -165,7 +172,7 @@
 }
 
 .program-description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: var(--line-height-lg);
 }
 

@@ -17,11 +17,52 @@
 @media (min-width: 48em) {
   html {
     font-size: 56.25%;
-    scroll-padding-top: 11rem;
+    scroll-padding-top: 12rem;
   }
 
   body {
-    padding-top: 11rem;
+    padding-top: 12rem;
+  }
+
+  .section {
+    padding: 9.6rem 6.4rem;
+  }
+
+  .nav-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12rem;
+    box-shadow: 0 12px 9px 1px #aaa5;
+    z-index: 10;
+  }
+
+  .social-bar {
+    background-color: #555;
+    display: flex;
+    gap: 1.6rem;
+    justify-content: end;
+    align-items: center;
+    padding: 0.6rem 3.6rem;
+  }
+
+  .social-bar a:link,
+  .social-bar a:visited {
+    font-size: 1.6rem;
+    color: #aaa;
+    transition: all 0.2s ease;
+  }
+
+  .social-bar a:hover,
+  .social-bar a:active {
+    transform: scale(1.1);
+    color: #fff;
+  }
+
+  .social-bar .social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
   }
 
   .btn-menu {
@@ -29,26 +70,25 @@
   }
 
   .main-nav {
+    position: relative;
+    height: 8rem;
     transform: translateX(0);
     flex-direction: row;
     justify-content: space-between;
-    height: 11rem;
+    padding: 0 3.6rem;
+    margin: auto 0;
     background-color: #fff;
-    box-shadow: 0 12px 9px 1px #aaa5;
-    z-index: 10;
-    padding: 0 5.2rem;
   }
 
   .menu-bar {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
   }
 
   .menu-item:link,
   .menu-item:visited {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     transition: all 0.2s;
     display: inline-block;
@@ -57,10 +97,6 @@
 
   .heading--primary {
     font-size: 4.4rem;
-  }
-
-  .section {
-    padding: 9.6rem 6.4rem;
   }
 
   .section-panelists {
@@ -99,12 +135,31 @@
   .event-img-box {
     flex-direction: row;
   }
+
+  .footer {
+    padding: 2.4rem 5.2rem;
+  }
 }
 
 /* HIGER THAN (992px) */
 @media (min-width: 62em) {
   html {
     font-size: 60%;
+  }
+
+  .social-bar,
+  .main-nav {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+
+  .menu-bar {
+    gap: 2rem;
+  }
+
+  .menu-item:link,
+  .menu-item:visited {
+    font-size: 2rem;
   }
 
   .heading--primary {
