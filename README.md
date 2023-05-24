@@ -229,7 +229,19 @@ If you like this project, kindly drop a start for the [repository](https://githu
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](https://www.microverse.org/?grsf=mohammad-a-nbtazu) for providing the opportunity for this project to be done.
+**I would like to thank the following individuals and organizations for their contribution to this project.**
+
+- 🙏 [**Microvere**](https://www.microverse.org/?grsf=mohammad-a-nbtazu) for its arrangement and supports to all Micronauts and me.
+- 🙏 [**IonIcon**]() for its free flexable icons.
+- 🙏 [**Cindy Shin in Behance**](https://www.behance.net/adagio07) for providing the [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the capstone project.
+
+**I especially thank from these Micronauts for their honest help and constructive feedbacks during the project:**
+
+- 🙏 [**Hafizullah Rasa**](https://github.com/hafiz1379).
+- 🙏 [**Mahram Hussain Nazari**](https://github.com/mhnazary).
+- 🙏 [**Ali Baba Hussaini**](https://github.com/Alibaba2023).
+- 🙏 [**Ghulam Reza Mirzaee**](https://github.com/Gh-Reza).
+- 🙏 [**Najibullah Jafari**](https://github.com/najibullahjafari).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
