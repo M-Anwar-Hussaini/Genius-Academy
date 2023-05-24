@@ -1,17 +1,6 @@
-:root {
-  /* Colors */
-  --primary-color: #272a32;
-  --gray-color: #d3d3d3;
-  --accent-color: #ec5242;
-  --line-height-sm: 1.2;
-  --line-height-rg: 1.5;
-  --line-height-lg: 1.8;
-}
-
 /* ************* *
 * HEADER SECTION *
 * ************* */
-
 .container-nav {
   position: relative;
 }
