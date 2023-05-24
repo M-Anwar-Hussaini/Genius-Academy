@@ -17,11 +17,53 @@
 @media (min-width: 48em) {
   html {
     font-size: 56.25%;
-    scroll-padding-top: 11rem;
+    scroll-padding-top: 12rem;
   }
 
   body {
-    padding-top: 11rem;
+    padding-top: 12rem;
+  }
+
+  .section {
+    padding: 9.6rem 6.4rem;
+  }
+
+  .nav-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12rem;
+    box-shadow: 0 12px 9px 1px #aaa5;
+    z-index: 10;
+  }
+
+  .social-bar {
+    background-color: #333;
+    display: flex;
+    gap: 1.6rem;
+    justify-content: end;
+    align-items: center;
+    padding: 0.4rem 6.4rem;
+    width: 100%;
+  }
+
+  .social-bar a:link,
+  .social-bar a:visited {
+    font-size: 1.6rem;
+    color: #eee;
+    transition: all 0.2s ease;
+  }
+
+  .social-bar a:hover,
+  .social-bar a:active {
+    transform: scale(1.1);
+    color: #fff;
+  }
+
+  .social-bar .social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
   }
 
   .btn-menu {
@@ -29,42 +71,37 @@
   }
 
   .main-nav {
+    display: block;
+    position: relative;
+    height: 8rem;
     transform: translateX(0);
+    margin: auto 0;
+    background-color: #fff;
+    padding: 0 6.4rem;
+  }
+
+  .nav-content {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 11rem;
-    background-color: #fff;
-    box-shadow: 0 12px 9px 1px #aaa5;
-    z-index: 10;
-    padding: 0 5.2rem;
   }
 
   .menu-bar {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
   }
 
   .menu-item:link,
   .menu-item:visited {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.8rem;
     transition: all 0.2s;
     display: inline-block;
-    padding: 0.8rem 1.2rem;
+    padding: 0.8rem 1rem;
   }
 
   .heading--primary {
     font-size: 4.4rem;
-  }
-
-  .section {
-    padding: 9.6rem 6.4rem;
-  }
-
-  .section-panelists {
-    padding: 9.6rem 2.4rem;
   }
 
   .hero-description {
@@ -81,11 +118,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .panelist-icon {
-    width: 4.8rem;
-    height: 4.8rem;
+    gap: 1.2rem;
+    text-align: center;
   }
 
   .program-see-all {
@@ -99,12 +133,20 @@
   .event-img-box {
     flex-direction: row;
   }
+
+  .footer {
+    padding: 2.4rem 5.2rem;
+  }
 }
 
 /* HIGER THAN (992px) */
 @media (min-width: 62em) {
   html {
     font-size: 60%;
+  }
+
+  .menu-bar {
+    gap: 2rem;
   }
 
   .heading--primary {
@@ -121,21 +163,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 4.8rem;
   }
-
-  .panelist-icon {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
 }
 
 /* HIGER THAN (1200px) */
 @media (min-width: 75em) {
   html {
     font-size: 62.5%;
-  }
-
-  .panelist-icon {
-    width: 4.8rem;
-    height: 4.8rem;
   }
 }
