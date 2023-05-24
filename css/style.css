@@ -114,7 +114,7 @@
   line-height: 1.5;
   border: 2px solid #ddd;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .hero-time {
@@ -195,6 +195,19 @@
   transform: scale(1.01);
 }
 
+.btn-join {
+  background-color: var(--accent-color);
+  padding: 4rem;
+  color: #fff;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn-join:hover {
+  background-color: #ec5242cc;
+}
+
 /* *************** *
 * SECTION PANELIST *
 * *************** */
@@ -242,12 +255,7 @@
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-  background-image:
-    linear-gradient(
-      to bottom,
-      #ec524280,
-      #ec5242
-    );
+  background-image: var(--hover-bg);
   z-index: 2;
   transition: all 0.3s ease-in-out;
   display: flex;
@@ -303,7 +311,7 @@
 }
 
 /* *************** *
-* SECTION sponsors *
+* SECTION SPONSORS *
 * *************** */
 .section--sponsors {
   background-color: var(--bg-dark);
@@ -324,4 +332,30 @@
 
 .partner-logo {
   height: 4.8rem;
+}
+
+/* *************** *
+*  SECTION FOOTER  *
+* *************** */
+.footer {
+  padding: 2.4rem 1rem;
+  border-top: 2px solid #aaa3;
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 1.6rem;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.footer-descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 2rem;
 }
