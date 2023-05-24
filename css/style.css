@@ -219,7 +219,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   column-gap: 1.6rem;
-  align-items: center;
+  align-items: start;
 }
 
 .panelist-img-box {
@@ -269,7 +269,8 @@
 .panelist-icon {
   color: var(--gray-color);
   transition: all 0.2s;
-  height: 30%;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .panelist-icon:hover {
